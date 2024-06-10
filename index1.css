@@ -1,0 +1,78 @@
+
+body {
+  background-color: black !important;
+}
+.navbar-nav {
+  margin-left: 40%;
+}
+.container-fluid a {
+  margin-left: 45px;
+}
+.nav-item .nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: goldenrod !important;
+}
+
+/*Hero Styling*/
+#hero {
+  background-image: url(./image/software\ bg\ 3.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 55rem;
+  background-position-x: right;
+  animation-name: change; 
+  animation-duration: 7s;
+  animation-delay: 7s;
+  animation-iteration-count: infinite  ;
+}
+
+@keyframes change{
+  0%{ background-image: url(./image/software\ bg\ 3.png); }
+
+  20%{ background-image: url(./image/data\ analysis.jpeg);}
+  
+  50%{ background-image: url(./image/UI\ &\ UX\ design.jpg);}
+
+  80%{ background-image: url(./image/New\ web\ bg.png);}
+  
+  100%{ background-image: url(./image/software\ bg\ 3.png); } 
+}
+
+button {
+  border: none;
+}
+
+.text-center:hover{
+color: goldenrod;
+cursor: pointer;
+}
+.border-bottom:hover{
+color: blue;
+}
+#btn-start-learnkng:hover{
+  color: goldenrod !important;
+  background-color: black;
+ 
+}
+
+a{
+  text-decoration: none !important;
+  color: white !important;
+}
+/* .text-white p{
+color: blue;
+} */
+
+
+
+
+
+
+
+
+
+
+

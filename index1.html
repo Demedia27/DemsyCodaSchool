@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Lession</title>
+    <link rel="stylesheet" href="./index1.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />              
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-dark border-bottom fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" style="color: rgb(241, 238, 241)" href="#"
+          >DemsyCoda</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text-danger" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#courses">Courses</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+     <!--Hero section-->
+
+    <div class="container-fluid bg-dark p-5 mt-5"  id="hero">
+      <div class="row">
+        <div class="col mt-5">
+          <h1 class="w-50 text-white">
+            We teach, we promote and we develope.
+          </h1>
+          <p class="text-white">
+            There is no place better than our school for self development.
+          </p>
+          <p class="text-white">
+            Don't go arround looking for where you have the direction in your
+            hands.
+          </p>
+
+          <div class="row ">
+            <div class="col-sm-6 ">
+              <button class="btn btn-primary border p-2 text-white mt-5">
+                Latest Project
+              </button>
+              <button class="btn btn-success  p-2 text-white mt-5 ">
+                What we offer
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <!--Courses section-->
+
+    <div class="container border-top mb-5 mt-5" id="courses">
+      <h1 class="text-white text-center mb-2 mt-5">Choose a Learning track</h1>
+      <div class="row">
+        <div class="col">
+          <div class="card mt-5">
+            <img
+              src="./image/hand-drawn-web-developers_23-2148819604.avif"
+              class="card-img-top bg-primary"
+              alt="image"
+            />
+            <div class="card-body">
+              <h4 class="text-center ">Learn Web Development</h4>
+              <p class="border-bottom">HTML</p>
+              <p class="border-bottom">CSS</p>
+              <p class="border-bottom">JavaScript</p>
+              <button type="button" class="btn btn-primary"><a href="#start-now">Start Now</a></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card mt-5">
+            <img
+              src="./image/data analysis.jpeg"
+              class="card-img-top"
+              alt="image"
+            />
+            <div class="card-body">
+              <h4 class="text-center">Learn Data Analysis</h4>
+              <p class="border-bottom">Python</p>
+              <p class="border-bottom">SQL</p>
+              <p class="border-bottom">R.</p>
+              <button type="button" class="btn btn-primary"><a href="#start-now">Start Now</a></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card mt-5">
+            <img
+              src="./image/UI and UX.avif"
+              class="card-img-top"
+              alt="image"
+            />
+            <div class="card-body">
+              <h4 class="text-center">Learn UI/UX Design</h4>
+              <p class="border-bottom">HTML</p>
+              <p class="border-bottom">CSS</p>
+              <p class="border-bottom">Figma</p>
+              <button type="button" class="btn btn-primary"><a href="#start-now">Start Now</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---Course Registration Form section-->
+
+   <div class="container w-75 mt-5 mb-5 " id="start-now">
+      <h1 class="text-white text-center">Register Now</h1>
+      <form class="w-75 mt-5 mx-auto border p-3" >
+      
+
+        <div class="mb-3 mt-5">
+           <label for="name" class="form-label text-white">First Name</label>
+           <input type="text" class="form-control " id="name">
+        </div>
+
+       <div class="mb-3">
+          <label for="name" class="form-label text-white">Last Name</label>
+          <input type="text" class="form-control" id="name">
+       </div>
+
+       <div class="mb-3">
+          <label for="email" class="form-label text-white">Email</label>
+          <input type="email" class="form-control" id="email">
+       </div>
+
+       <div class="mb-3 form-check">
+         <h5 class="text-white">Select Course</h5>
+         <input type="checkbox" class="form-check-input" id="name">
+        <label for="name" class="form-check-label text-white">Frontend Dev.</label>
+       </div>
+
+       <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="name">
+          <label for="name" class="form-check-label text-white">Web Dev.</label>
+       </div>
+
+       <div class="mb-3 form-check">
+         <input type="checkbox" class="form-check-input" id="name">
+         <label for="name" class="form-check-label text-white">Backend Dev.</label>
+       </div>
+
+       <div class="mb-3 form-check">
+         <input type="checkbox" class="form-check-input" id="name">
+         <label for="name" class="form-check-label text-white">UI/UX.</label>
+       </div>
+
+       <div class="mb-3 form-check">
+         <input type="checkbox" class="form-check-input" id="name">
+         <label for="name" class="form-check-label text-white">Product Mgt.</label>
+       </div>
+
+       <div class="mb-3">
+         <button type="submit" class="btn btn-primary text-white">Submit</button>
+       </div>
+
+
+      </form>
+   </div>
+
+
+
+
+      <!--About Page-->
+
+    <div class="container border-top" id="about">
+      <h4 class="text-center mt-5 mb-5 text-white fs-1">About</h4>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card">
+            <img class="rounded" src="./image/_MG_7309.jpg" style="width: 100%;" alt="image">
+        </div>
+
+          </div>
+            
+   <!--About Page text-->
+        <div class="col-sm-8 mt-3 mb-3">
+          <div class="card bg-dark">
+            <div class="card-body">
+              <h4 class="text-white mt-5 mb-5">Meet Me:</h4>
+              <p class="text-white w-100">Udeme Inwang is a Nigerian. A Frontent web developer.
+                 I have experience in HTML, CSS, Bootstrap 5 and JavaScript. I am currently on scholarship at
+                  Everest Online Training Center to learn more a become a better developer.
+                My personal Goal is to build a reponsive web applications to solve human needs.
+              </p>
+              <h4 class="text-white mt-5">Vision:</h4>
+              <p class="text-white mt-5 w-100">
+                  My vision is to build web sites that enhances user's digital experiences, 
+                  which redefines industry standards
+                   to compliment cuting-edge technologies driven by innovations. 
+                   Using coding to redesign and create amazing
+                   users interactive interfaces with digital technologies.
+                   Continuous improvement is my watch words. I am open to collaborations and innovations.
+              </p>
+    
+
+            </div>
+          
+          </div>
+          
+      </div>
+    </div>
+
+
+<!--Contact Page text-->
+
+   <div class="container mt-5  border-top" id="contact">
+    <h1 class="text-white text-center mt-5 mb-5">Contact</h1>
+    <div class="row">
+      <div class="col">
+        <h4 class="mt-5 mb-2 text-white ">Address: </h4>
+        <p class="mt-2 mb-2 text-white">No. 43 Idoro Road Uyo Akwa Ibom State.</p>
+        <h4 class="mt-5 mb-2 text-white">Phone Number: </h4>
+        <p class="mt-2 mb-2 text-white">+2348063561953</p>
+        <h4 class="mt-5 mb-2 text-white">Email Address: </h4>
+        <p class="mt-2 mb-2 text-white">udemeinwang@gmail.com</p>
+      </div>
+
+      
+      <div class="col">
+        <form id="start">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label ">Enter Your Name</label>
+            <input type="text" class="form-control" id="name" aria-describedby="name">
+          </div>
+
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+         
+
+        <div class="form-floating">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+           <label for="floatingTextarea">Comments</label>
+        </div>
+
+
+        <div class="mb-3 form-check mt-2">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form> 
+      </div>
+    </div>
+   </div>
+
+
+   
+  <footer class="p-5 mt-5 mb-5 border-top  text-white text-center">
+    &copy;2024 all right reserves
+  </footer>
+
+   
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
