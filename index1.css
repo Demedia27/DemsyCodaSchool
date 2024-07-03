@@ -3,7 +3,7 @@ body {
   background-color: black !important;
 }
 .navbar-nav {
-  margin-left: 40%;
+  margin-left: 57%;
 }
 .container-fluid a {
   margin-left: 45px;
@@ -14,6 +14,9 @@ body {
 
 .nav-link:hover {
   color: goldenrod !important;
+}
+.navbar-toggler{
+  border: 1px solid white !important;
 }
 
 /*Hero Styling*/
@@ -41,10 +44,19 @@ body {
   100%{ background-image: url(./image/software\ bg\ 3.png); } 
 }
 
-button {
+/* button {
   border: none;
+} */
+
+#btn{
+  margin-left: 0;
 }
 
+#courses-container{
+  /* background-image: var(--bs-gradient); */
+  background-color: rgba(28, 32, 36, 0.432) !important;
+  
+}
 .text-center:hover{
 color: goldenrod;
 cursor: pointer;
@@ -55,16 +67,39 @@ color: blue;
 #btn-start-learnkng:hover{
   color: goldenrod !important;
   background-color: black;
- 
 }
 
 a{
   text-decoration: none !important;
   color: white !important;
 }
-/* .text-white p{
-color: blue;
-} */
+
+
+/*Courses Animation*/
+
+.card-img-top{
+  /* background-image: url(./image/web\ dev\ 2.png) !important; */
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 55rem;
+  background-position-x: right;
+  animation-name:change2; 
+  animation-duration: 7s;
+  animation-delay: 7s;
+  animation-iteration-count: infinite  ;
+}
+
+@keyframes change2 {
+  0%{ background-image: url(./image/software\ bg\ 3.png); }
+
+  20%{ background-image: url(./image/data\ analysis.jpeg);}
+  
+  50%{ background-image: url(./image/UI\ &\ UX\ design.jpg);}
+
+  80%{ background-image: url(./image/New\ web\ bg.png);}
+  
+  100%{ background-image: url(./image/software\ bg\ 3.png); } 
+}
 
 
 

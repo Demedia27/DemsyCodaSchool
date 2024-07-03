@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bootstrap Lession</title>
+    <title>DemsyCoda Digital Solutions</title>
     <link rel="stylesheet" href="./index1.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
@@ -12,6 +12,7 @@
       crossorigin="anonymous"
     />              
   </head>
+  
   <body>
     <nav class="navbar navbar-expand-sm bg-dark border-bottom fixed-top">
       <div class="container-fluid">
@@ -56,25 +57,19 @@
     <div class="container-fluid bg-dark p-5 mt-5"  id="hero">
       <div class="row">
         <div class="col mt-5">
-          <h1 class="w-50 text-white">
-            We teach, we promote and we develope.
+          <h1 class="w-75 text-white">
+            We teach, we develope and we empower.
           </h1>
-          <p class="text-white">
-            There is no place better than our school for self development.
-          </p>
-          <p class="text-white">
+
+          <p class="text-white fs-4 w-50">
             Don't go arround looking for where you have the direction in your
             hands.
           </p>
 
-          <div class="row ">
+          <div class="row mt-5 mb-5">
             <div class="col-sm-6 ">
-              <button class="btn btn-primary border p-2 text-white mt-5">
-                Latest Project
-              </button>
-              <button class="btn btn-success  p-2 text-white mt-5 ">
-                What we offer
-              </button>
+            <a href="#start-now" class="btn btn-dark btn-lg border p-2 text-white mt-3 mb-5" 
+            role="button" id="btn">Join Now</a> 
             </div>
           </div>
         </div>
@@ -82,15 +77,15 @@
     </div>
 
      <!--Courses section-->
-
+  <div class="container-fluid mt-5 pb-5" id="courses-container">
     <div class="container border-top mb-5 mt-5" id="courses">
       <h1 class="text-white text-center mb-2 mt-5">Choose a Learning track</h1>
       <div class="row">
         <div class="col">
-          <div class="card mt-5">
+          <div class="card mt-5" id="card-img-top">
             <img
               src="./image/hand-drawn-web-developers_23-2148819604.avif"
-              class="card-img-top bg-primary"
+              class="card-img-top bg-primary" 
               alt="image"
             />
             <div class="card-body">
@@ -98,7 +93,8 @@
               <p class="border-bottom">HTML</p>
               <p class="border-bottom">CSS</p>
               <p class="border-bottom">JavaScript</p>
-              <button type="button" class="btn btn-primary"><a href="#start-now">Start Now</a></button>
+              <a href="#start-now" class="btn btn-dark btn-lg border p-2 text-white mt-3 mb-5" 
+            role="button" id="btn">Join Now</a>
             </div>
           </div>
         </div>
@@ -106,7 +102,7 @@
         <div class="col">
           <div class="card mt-5">
             <img
-              src="./image/data analysis.jpeg"
+              src="./image/data analysis 4.png"
               class="card-img-top"
               alt="image"
             />
@@ -114,8 +110,9 @@
               <h4 class="text-center">Learn Data Analysis</h4>
               <p class="border-bottom">Python</p>
               <p class="border-bottom">SQL</p>
-              <p class="border-bottom">R.</p>
-              <button type="button" class="btn btn-primary"><a href="#start-now">Start Now</a></button>
+              <p class="border-bottom">MongoDB</p>
+              <a href="#start-now" class="btn btn-dark btn-lg border p-2 text-white mt-3 mb-5" 
+              role="button" id="btn">Join Now</a>
             </div>
           </div>
         </div>
@@ -132,12 +129,14 @@
               <p class="border-bottom">HTML</p>
               <p class="border-bottom">CSS</p>
               <p class="border-bottom">Figma</p>
-              <button type="button" class="btn btn-primary"><a href="#start-now">Start Now</a></button>
+              <a href="#start-now" class="btn btn-dark btn-lg border p-2 text-white mt-3 mb-5" 
+            role="button" id="btn">Join Now</a>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
     <!---Course Registration Form section-->
 
@@ -200,15 +199,14 @@
 
       <!--About Page-->
 
-    <div class="container border-top" id="about">
+    <div class="container " id="about">
       <h4 class="text-center mt-5 mb-5 text-white fs-1">About</h4>
       <div class="row">
         <div class="col-sm-4">
           <div class="card">
             <img class="rounded" src="./image/_MG_7309.jpg" style="width: 100%;" alt="image">
         </div>
-
-          </div>
+      </div>
             
    <!--About Page text-->
         <div class="col-sm-8 mt-3 mb-3">
@@ -241,7 +239,7 @@
 
 <!--Contact Page text-->
 
-   <div class="container mt-5  border-top" id="contact">
+   <div class="container mt-5 " id="contact">
     <h1 class="text-white text-center mt-5 mb-5">Contact</h1>
     <div class="row">
       <div class="col">
@@ -257,26 +255,26 @@
       <div class="col">
         <form id="start">
           <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label ">Enter Your Name</label>
+            <label for="exampleInputEmail1" class="form-label text-white">Enter Your Name</label>
             <input type="text" class="form-control" id="name" aria-describedby="name">
           </div>
 
         <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <label for="exampleInputEmail1" class="form-label text-white">Email address</label>
+          <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp">
           <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
         </div>
          
 
         <div class="form-floating">
           <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-           <label for="floatingTextarea">Comments</label>
+           <label for="floatingTextarea text-white">Comments</label>
         </div>
 
 
         <div class="mb-3 form-check mt-2">
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          <label class="form-check-label text-white" for="exampleCheck1">Check me out</label>
           </div>
         <button type="submit" class="btn btn-primary">Submit</button>
       </form> 
