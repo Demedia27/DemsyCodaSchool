@@ -21,7 +21,7 @@ body {
 
 /*Hero Styling*/
 #hero {
-  background-image: url(./asset/data\ analysis.jpeg);
+  background-image: url(./asset/dataBg.jpg);
   background-position: right;
   background-repeat: no-repeat;
   background-size: 55rem;
@@ -33,15 +33,15 @@ body {
 }
 
 @keyframes change{
-  0%{ background-image: url(./asset/software\ bg\ 3.png); }
+  0%{ background-image: url(./asset/dataBg.jpg); }
 
-  20%{ background-image: url(./asset/data\ analysis.jpeg);}
+  20%{ background-image: url(./asset/dataBg.jpg);}
   
-  50%{ background-image: url(./asset/UI\ &\ UX\ design.jpg);}
+  50%{ background-image: url(./asset/UiBg.jpg);}
 
-  80%{ background-image: url(./asset/New\ web\ bg.png);}
+  80%{ background-image: url(./asset/WebBg.jpg);}
   
-  100%{ background-image: url(./asset/software\ bg\ 3.png); } 
+  100%{ background-image: url(./asset/WebBg2.jpg); } 
 }
 
 /* button {
@@ -99,6 +99,14 @@ a{
   80%{ background-image: url(./image/New\ web\ bg.png);}
   
   100%{ background-image: url(./image/software\ bg\ 3.png); } 
+}
+
+@media(max-width:1200px){
+  .row{
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  
 }
 
 
